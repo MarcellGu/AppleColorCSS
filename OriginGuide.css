@@ -1,0 +1,75 @@
+/* 浅色模式 */
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-red: rgb(255, 56, 60);
+        --color-orange: rgb(255, 141, 40);
+        --color-yellow: rgb(255, 204, 0);
+        --color-green: rgb(52, 199, 89);
+        --color-mint: rgb(0, 200, 179);
+        --color-teal: rgb(0, 195, 208);
+        --color-cyan: rgb(0, 192, 232);
+        --color-blue: rgb(0, 136, 255);
+        --color-indigo: rgb(97, 85, 245);
+        --color-purple: rgb(204, 48, 224);
+        --color-pink: rgb(255, 45, 85);
+        --color-brown: rgb(172, 127, 94);
+        --color-gray: rgb(142, 142, 147);
+    }
+}
+
+/* 深色模式 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-red: rgb(255, 69, 69);
+        --color-orange: rgb(255, 146, 48);
+        --color-yellow: rgb(255, 214, 0);
+        --color-green: rgb(48, 209, 88);
+        --color-mint: rgb(0, 218, 195);
+        --color-teal: rgb(0, 210, 224);
+        --color-cyan: rgb(60, 211, 254);
+        --color-blue: rgb(0, 145, 255);
+        --color-indigo: rgb(107, 93, 255);
+        --color-purple: rgb(219, 52, 242);
+        --color-pink: rgb(255, 55, 95);
+        --color-brown: rgb(183, 138, 102);
+        --color-gray: rgb(142, 142, 147);
+    }
+}
+
+/* 可访问模式（浅色） */
+@media (prefers-contrast: more) and (prefers-color-scheme: light) {
+    :root {
+        --color-red: rgb(233, 21, 45);
+        --color-orange: rgb(197, 83, 0);
+        --color-yellow: rgb(161, 106, 0);
+        --color-green: rgb(0, 137, 50);
+        --color-mint: rgb(0, 133, 117);
+        --color-teal: rgb(0, 129, 152);
+        --color-cyan: rgb(0, 126, 174);
+        --color-blue: rgb(30, 110, 244);
+        --color-indigo: rgb(86, 74, 222);
+        --color-purple: rgb(176, 47, 194);
+        --color-pink: rgb(231, 18, 77);
+        --color-brown: rgb(149, 109, 81);
+        --color-gray: rgb(108, 108, 112);
+    }
+}
+
+/* 可访问模式（深色） */
+@media (prefers-contrast: more) and (prefers-color-scheme: dark) {
+    :root {
+        --color-red: rgb(255, 97, 101);
+        --color-orange: rgb(255, 160, 86);
+        --color-yellow: rgb(254, 223, 67);
+        --color-green: rgb(74, 217, 104);
+        --color-mint: rgb(84, 223, 203);
+        --color-teal: rgb(59, 221, 236);
+        --color-cyan: rgb(109, 217, 255);
+        --color-blue: rgb(92, 184, 255);
+        --color-indigo: rgb(167, 170, 255);
+        --color-purple: rgb(234, 141, 255);
+        --color-pink: rgb(255, 138, 196);
+        --color-brown: rgb(219, 166, 121);
+        --color-gray: rgb(174, 174, 178);
+    }
+}
